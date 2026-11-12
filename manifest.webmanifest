@@ -1,1 +1,10 @@
-{"name":"Forja Studio","short_name":"Forja","start_url":"./","display":"standalone","background_color":"#101114","theme_color":"#101114"}
+{
+  "name": "GameLab 3D - Aprenda criando",
+  "short_name": "GameLab 3D",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "Aprenda programação de jogos com aulas, arena e blocos."
+}
