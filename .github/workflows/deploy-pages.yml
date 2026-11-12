@@ -1,4 +1,4 @@
-name: Publicar Forja Studio no GitHub Pages
+name: Publicar GameLab 3D no GitHub Pages
 
 on:
   push:
