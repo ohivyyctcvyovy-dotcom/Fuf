@@ -1,10 +1,11 @@
 {
-  "name": "GameLab 3D - Aprenda criando",
+  "name": "GameLab 3D",
   "short_name": "GameLab 3D",
+  "description": "Aprenda a criar jogos com aulas simples e um laboratório 3D.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
-  "description": "Aprenda programação de jogos com aulas, arena e blocos."
+  "background_color": "#f4f7fc",
+  "theme_color": "#f4f7fc",
+  "lang": "pt-BR"
 }

@@ -1,22 +1,28 @@
-# 🎮 GameLab 3D 📖
+# GameLab 3D
 
-GameLab 3D é um projeto educativo para aprender fundamentos de programação de jogos em português.
+GameLab 3D é uma plataforma educativa em português para aprender os fundamentos da criação de jogos, começando do zero.
 
-## Recursos
-- Aulas curtas com opção de leitura em voz alta pelo navegador.
-- Arena de treino interativa em canvas 2D com perspectiva simulada, controles por toque, alvos fictícios e pontuação.
-- Oficina de blocos que mostra uma representação de código.
-- Progresso salvo localmente no aparelho.
-- Aplicativo web instalável (PWA) e cache básico para uso offline após a primeira visita online.
+## Estrutura desta versão
+- Página inicial clara, responsiva e adaptada para celular.
+- Trilha de cinco aulas curtas com leitura em voz alta pelo navegador.
+- Laboratório 3D com personagem inicial, câmera orbital, cubos e plataformas.
+- Seleção de objetos e edição de posição e escala.
+- Programação por blocos demonstrativos com visualização de JavaScript.
+- Quiz interativo com feedback.
+- Salvamento local de projetos e progresso.
+- PWA com cache básico da estrutura principal.
 
-## Publicar no GitHub Pages
-1. Abra **Settings → Pages**.
-2. Em **Build and deployment**, selecione **Deploy from a branch**.
-3. Escolha a branch **main** e a pasta **/(root)** e salve.
-4. Aguarde a publicação e abra a URL indicada pelo GitHub.
+## Tecnologias
+- HTML, CSS e JavaScript.
+- Three.js para a cena 3D.
+- Web Speech API para leitura em voz alta.
+- LocalStorage para progresso e projetos.
 
-## Usar no Android
-Abra o site no Chrome depois de publicado. No menu do navegador, escolha **Adicionar à tela inicial** ou **Instalar app**, se aparecer. Para o modo offline, abra o site uma vez com internet e aguarde o carregamento.
+## Publicação
+O projeto é estático e pode ser publicado pelo GitHub Pages usando a branch `main` e a pasta `/(root)`, ou pela branch de publicação configurada nas opções do repositório.
 
-## Limites desta versão
-Apesar do nome GameLab 3D, esta primeira versão é um protótipo 2D em canvas com perspectiva visual simulada, não um motor 3D completo. A oficina demonstra blocos e gera uma representação simples de código; ela ainda não compila projetos de jogos reais. O cache offline é básico e depende do suporte do navegador a Service Workers.
+## Observações importantes
+- O motor 3D é carregado de uma CDN; a primeira abertura do editor 3D precisa de conexão com a internet.
+- O cache offline guarda a estrutura principal do site, mas o editor 3D e suas bibliotecas externas podem não funcionar offline até que sejam disponibilizadas localmente.
+- A programação por blocos desta etapa executa ações demonstrativas no cenário. Ainda não é um compilador completo de jogos nem um editor de scripts arbitrários.
+- Esta é a base inicial do projeto. Próximas etapas podem adicionar joystick real, colisões, sistema de vida, inimigos com IA, Blockly integrado, vídeos e mais ferramentas de edição.
